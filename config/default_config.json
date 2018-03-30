@@ -1,0 +1,7 @@
+{
+    "app_name": "slackertracker",
+    "app": {
+        "SQLALCHEMY_DATABASE_URI": "sqlite:///instance/sqlite.db",
+        "SQLALCHEMY_TRACK_MODIFICATIONS": false
+    }
+}
