@@ -2,6 +2,6 @@ from flask import Blueprint
 
 routes = Blueprint('routes', __name__)
 
-@routes.route('/api/slack')
-def show():
-    return("Hello!")
+@routes.route('/')
+def hello():
+    return('Hello World!')

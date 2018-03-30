@@ -2,6 +2,10 @@ if __name__=='__main__':
     import os
     import json
 
+    # add environment vars
+    print("Adding env['FLASK_APP']")
+    os.environ['FLASK_APP'] = "manage.py"
+
     # create instance folder
     instance_dir = 'instance/'
     if not os.path.exists(instance_dir):
