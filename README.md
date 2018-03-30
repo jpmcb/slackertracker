@@ -1,4 +1,4 @@
-# SlackerTracker
+# SlackerTracker [![Build Status](https://travis-ci.org/slackertracker/slackertracker.svg?branch=master)](https://travis-ci.org/slackertracker/slackertracker)
 
 ## Description
 
