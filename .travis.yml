@@ -1,0 +1,9 @@
+language: python
+sudo: false
+
+install:
+  - pip install -r requirements.txt
+  - python config.py
+
+script:
+  - flask test
